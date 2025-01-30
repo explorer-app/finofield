@@ -481,23 +481,13 @@ hr {
     gap: 10px;
 }
 
-.logo a > h1{
-    font-size: 45px;
-    font-weight: bolder;
-    color: rgb(236, 134, 0);
-    font-family: 'Times New Roman', Times, serif;
-}
-
 .logo-img{
-    width: 300px;
+    width: 250px;
 }
 
 @media screen and (max-width: 400px) {
     .logo-img{
-        width: 50px;
-    }
-    .logo a > h1{
-        font-size: xx-large;
+        width: 200px;
     }
 }
 
