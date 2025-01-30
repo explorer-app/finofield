@@ -475,6 +475,31 @@ hr {
     margin: 0
 }
 
+.logo a{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo a > h1{
+    font-size: 45px;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.logo-img{
+    width: 100px;
+}
+
+@media screen and (max-width: 400px) {
+    .logo-img{
+        width: 50px;
+    }
+    .logo a > h1{
+        font-size: xx-large;
+    }
+}
+
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
     .header-btn2 {
         padding: 37px 25px 34px 25px
