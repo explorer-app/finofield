@@ -484,11 +484,12 @@ hr {
 .logo a > h1{
     font-size: 45px;
     font-weight: bolder;
+    color: rgb(236, 134, 0);
     font-family: 'Times New Roman', Times, serif;
 }
 
 .logo-img{
-    width: 100px;
+    width: 300px;
 }
 
 @media screen and (max-width: 400px) {
